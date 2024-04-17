@@ -1,0 +1,47 @@
+.a
+{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(66, 163, 192, 0.464);
+    text-align: center;
+}   
+
+.b
+{
+    padding-left: 30px;
+    margin-top: 50px;
+}
+h4
+{
+    font-size: 30px;
+}
+h5{
+    font-size: 15px;
+}
+.txt
+{
+    font-size: 40px;
+    padding-top: 170px;
+}
+
+button
+{
+    height: 50px;
+    width: 100px;
+}
+.d
+{
+    margin-top: 150px;
+    background-color: rgb(158, 196, 196);
+    height:400px ;
+    width: 600px;
+    border-radius: 20px;
+    margin-left:390px ;
+    text-align: center;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-photo/hand-painted-watercolor-background_24972-2223.jpg?w=996&t=st=1699540550~exp=1699541150~hmac=371dbf3ac9e85a19518f3fd651f0112fe5ae0082a91e08b49b31f77739a99c9f");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

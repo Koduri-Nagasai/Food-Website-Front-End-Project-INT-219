@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In / Sign Up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login_style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Sign In / Sign Up</h1>
+
+        <!-- Toggle Buttons -->
+        <div class="text-center">
+            <button class="btn btn-outline-danger" id="signin-btn">Sign In</button>
+            <button class="btn btn-outline-danger" id="signup-btn">Sign Up</button>
+        </div>
+
+        <!-- Sign-in Form -->
+        <div id="signin-form" class="text-center">
+            <h2>Sign In</h2>
+            <form id="signin" >
+                <div class="form-group row">
+                    <div class="col-12 col-md-6 offset-md-3">
+                        <input type="text" class="form-control" id="signin-username" placeholder="Username" required>
+                        <p class="logUserWarn warnmsg"></p>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-12 col-md-6 offset-md-3">
+                        <input type="password" class="form-control" id="signin-password" placeholder="Password" required>
+                        <p class="logPassWarn warnmsg"></p>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-success submit" id="loginCheck">Sign In</button>
+            </form>
+        </div>
+
+        <!-- Sign-up Form -->
+        <div id="signup-form" class="text-center">
+            <h2>Sign Up</h2>
+            <form id="signup">
+                <div class="form-group row">
+                    <div class="col-12 col-md-6 offset-md-3">
+                        <input type="text" class="form-control" id="new-username" placeholder="New Username" required>
+                        <p class="signUserWarn warnmsg"></p>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-12 col-md-6 offset-md-3">
+                        <input type="password" class="form-control" id="new-password" placeholder="New Password" required>
+                        <p class="signPassWarn warnmsg"></p>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-success submit" id="signUpCheck">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- <script>
+        document.getElementById("signin-form").style.display = "block";
+        document.getElementById("signup-form").style.display = "none";
+
+        document.getElementById("signin-btn").addEventListener("click", function () {
+            document.getElementById("signin-form").style.display = "block";
+            document.getElementById("signup-form").style.display = "none";
+        });
+
+        document.getElementById("signup-btn").addEventListener("click", function () {
+            document.getElementById("signin-form").style.display = "none";
+            document.getElementById("signup-form").style.display = "block";
+        });
+
+        function validateSignIn() {
+            // You can add JavaScript validation logic for the sign-in form here
+            return true; // Return true for the example
+        }
+
+        function validateSignUp() {
+            // You can add JavaScript validation logic for the sign-up form here
+            return true; // Return true for the example
+        }
+    </script> -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script> -->
+    <script src="login_script.js"></script>
+</body>
+</html>

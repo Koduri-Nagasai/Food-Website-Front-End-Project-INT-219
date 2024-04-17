@@ -1,0 +1,36 @@
+body{
+    background: url('images/Login_images/address_bg.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    background: rgb(190, 98, 98);
+    font-weight: bold;
+    padding: .5rem;
+}
+.form-group{
+    padding: .5rem;
+}
+.mb-4{
+    padding-top : .5rem;
+    text-align: center;
+}
+.form-group input{
+    width: 250px;
+    background-color: blacks;
+}
+.form-group #address{
+    width: 100%;
+}
+.container .center-button{
+    display: flex;
+    justify-content: center;
+}
+#namewarn,#addwarn,#citywarn,#pinwarn,#mobilewarn{
+    display: none;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-bottom: -20px;
+}

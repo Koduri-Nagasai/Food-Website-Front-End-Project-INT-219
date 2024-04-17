@@ -1,0 +1,23 @@
+body{
+    background: url('images/Login_images/bg1.jpg');
+    position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 40%;
+    margin-top:5%;
+    padding: 1rem;
+    border: .2rem  solid black;
+    height: 30rem;
+    border-radius: 1rem;
+    background: papayawhip;
+}
+.btn-outline-danger,.btn-outline-danger{
+    margin-top: 1rem;
+    outline: none;
+}
+.warnmsg{
+    color: red;
+    font-size: 10px;
+}

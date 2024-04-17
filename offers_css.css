@@ -1,0 +1,66 @@
+h1{
+    font-size: 70px;
+    background-color: #fb8500;
+    padding: 10px;
+    border-radius: 10px;
+}
+.a
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+button
+{
+    height: 50px;
+    width: 100px;
+}
+
+.b
+{
+    margin-top: 20px;
+    background-color: #ffb703;
+    font-size: 40px;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+#id1
+{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    /* background-color: #8ecae6; */
+}
+
+#id2
+{
+    font-size: 30px;
+    /* background-color: #8ecae6; */
+}
+
+.e
+{
+    margin-left: 100px;
+    /* background-color: #bde0fe; */
+    margin-top: 100px;
+    border-radius: 20px;    
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+}
+
+img
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+/* body
+{
+    background-image: url("https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg?w=996&t=st=1699552182~exp=1699552782~hmac=74b892e0a9319e06a5b40e389cc5949c80b17d3d6295a7665ae4eb42951b56a1");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */

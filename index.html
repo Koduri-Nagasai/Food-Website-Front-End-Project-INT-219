@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Heaven</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+<div class="container" id="container">
+    <div id="menu">
+       <div class="brand-logo">
+        <img src="images/logo3.png" alt="Food Heaven Logo" id="logo">
+       </div>
+       <div class="menu-items"> 
+        <h1>FOOD HEAVEN</h1>
+        <a href="about_html.html">About</a>
+       
+        <a href="orders_html.html">Your Orders</a>
+      
+        <a href="address_html.html">Address</a>
+        <a href="help_html.html">Help</a>
+        
+       </div>
+    </div>
+    <div id="food-container">
+        <div id="header">
+            <div class="add-box">
+                <i class="fa fa-map-marker your-address" id="add-address">
+                    Guntur, Andhra Pradesh</i>
+            </div>
+            <div class="util">
+               
+                <i class="fa fa-cart-plus" id="cart-plus"> 0 Items</i>
+            </div>
+        </div>
+        <div id="food-items">
+           
+            <div id="biryani">
+                <p id="category-name">Biryani</p>
+             
+            </div>
+
+            <div id="chicken">
+                <p id="category-name">Chicken Recepies</p>
+            </div>
+
+            <div id="starters">
+                <p id="category-name">Starters</p>
+
+            </div>
+
+            <div id="vegetable">
+                <p id="category-name">Veg Recepies</p>
+            
+            </div>
+
+            <div id="chinese">
+                <p id="category-name">Chinese Recepies</p>
+            </div>
+
+            <div id="south-indian">
+                <p id="category-name">South-Indian</p>
+            
+            </div>
+
+            
+        </div>
+        <div id="cart-page" class="cart-toggle">
+            <p id="cart-title">Cart Items</p>
+            <p id="m-total-amount">Total Amount : Rs. 500</p>
+            <table>
+                <thead>
+                    <td>Item</td>
+                    <td>Name</td>
+                    <td>Quantity</td>
+                    <td>Price</td>
+                </thead>
+                <tbody id="table-body">
+                     <tr>
+                        <td>
+                            <img src="" alt="">
+                        </td>
+                        <td></td>
+                        <td>
+                            <button class="decrease-item">-</button>
+                            <span>0</span>
+                            <button class="increase-item">+</button>
+                        </td>
+                        <td></td>
+                    </tr> 
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="cart">
+       <div class="taste-header">
+        <div class="user">
+            <i class="fa fa-user-circle"  id="account"> Account</i>
+        </div>
+       </div>
+       <div id="category-list">
+        <p class="item-menu">Go For Hunt</p>
+        <div class="border"></div>
+       
+       </div>
+
+       <div id="checkout" class="cart-toggle">
+            <p id="total-item">Total Item : 0</p>
+            <p id="total-price">Total Amount : Rs. 0</p>
+            <p id="delivery">Free Delivery on above Rs.300</p>
+            <button class="cart-btn" id="cart-btn">Checkout</button>
+       </div>
+    </div>
+</div>
+
+</body>
+</html>
